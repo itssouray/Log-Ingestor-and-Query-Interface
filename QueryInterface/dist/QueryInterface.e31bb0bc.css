@@ -1,0 +1,147 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  input {
+    font-size: 16px;
+    padding: 10px 15px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .dropdown {
+    padding: 10px 15px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .LogQueryResult {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .LogQueryResult h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+  }
+  
+  .LogQueryResult ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .LogQueryResult li {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+  }
+  
+  .LogQueryResult li:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  
+  .LogQueryResult li.selected {
+    background-color: #e0e0e0;
+  }
+  
+  .LogQueryResult p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .LogQueryResult .metadata {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 12px;
+  }
+  
+  .LogQueryForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .LogQueryForm label {
+    margin-bottom: 5px;
+  }
+  
+  .LogQueryForm .query,
+  .LogQueryForm .filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .LogQueryForm label {
+    width: 25%;
+    margin-right: 5px;
+  }
+  
+  .LogQueryForm input,
+  .LogQueryForm select {
+    width: 60%;
+  }
+  
+  .LogQueryForm button {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+  }
+  
+  .LogQueryForm button:hover {
+    background-color: #0069d9;
+  }
+  
+  @media (max-width: 768px) {
+    .LogQueryResult {
+      margin: 10px;
+      padding: 5px;
+    }
+  
+    .LogQueryResult p {
+      font-size: 12px;
+    }
+  
+    .LogQueryForm {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .LogQueryForm label {
+      margin-bottom: 5px;
+    }
+  
+    .LogQueryForm input,
+    .LogQueryForm select {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .LogQueryForm button {
+      width: 100%;
+    }
+  }
+  
+
+/*# sourceMappingURL=/QueryInterface.e31bb0bc.css.map */
